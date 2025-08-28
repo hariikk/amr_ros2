@@ -1,0 +1,29 @@
+particle_filter:
+  ros__parameters:
+    # Number of particles
+    num_particles: 500
+    
+    # Motion model noise parameters
+    motion_noise_x: 0.1      # Standard deviation for x movement noise
+    motion_noise_y: 0.1      # Standard deviation for y movement noise  
+    motion_noise_theta: 0.05 # Standard deviation for rotation noise
+    
+    # Initial pose spread
+    initial_pose_x_std: 0.5  # Standard deviation for initial x spread
+    initial_pose_y_std: 0.5  # Standard deviation for initial y spread
+    initial_pose_theta_std: 0.2  # Standard deviation for initial theta spread
+    
+    # Minimum motion threshold
+    min_motion_x: 0.01       # Minimum x movement to trigger update
+    min_motion_y: 0.01       # Minimum y movement to trigger update
+    min_motion_theta: 0.01   # Minimum rotation to trigger update
+    
+    # Resampling threshold
+    resample_threshold: 0.5  # Resample when effective sample size < num_particles * threshold
+    
+    # Update frequency
+    update_frequency: 10.0   # Hz
+    
+    # Sensor model parameters (we'll add these later)
+    laser_max_range: 10.0    # Maximum laser range to consider
+    laser_min_range: 0.1     # Minimum laser range to consider

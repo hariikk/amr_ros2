@@ -1,0 +1,37 @@
+[0.743s] Invoking command in '/home/shazzy/amr_ros2/task_1': PYTHONPATH=/home/shazzy/amr_ros2/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/task_1 build --build-base /home/shazzy/amr_ros2/build/task_1/build install --record /home/shazzy/amr_ros2/build/task_1/install.log --single-version-externally-managed install_data
+[0.945s] running egg_info
+[0.946s] creating ../build/task_1/task_1.egg-info
+[0.946s] writing ../build/task_1/task_1.egg-info/PKG-INFO
+[0.947s] writing dependency_links to ../build/task_1/task_1.egg-info/dependency_links.txt
+[0.947s] writing entry points to ../build/task_1/task_1.egg-info/entry_points.txt
+[0.947s] writing requirements to ../build/task_1/task_1.egg-info/requires.txt
+[0.947s] writing top-level names to ../build/task_1/task_1.egg-info/top_level.txt
+[0.947s] writing manifest file '../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.949s] reading manifest file '../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.949s] writing manifest file '../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.949s] running build
+[0.949s] running build_py
+[0.949s] creating /home/shazzy/amr_ros2/build/task_1/build
+[0.949s] creating /home/shazzy/amr_ros2/build/task_1/build/lib
+[0.950s] creating /home/shazzy/amr_ros2/build/task_1/build/lib/task_1
+[0.950s] copying task_1/task_1.py -> /home/shazzy/amr_ros2/build/task_1/build/lib/task_1
+[0.950s] copying task_1/__init__.py -> /home/shazzy/amr_ros2/build/task_1/build/lib/task_1
+[0.950s] running install
+[0.950s] running install_lib
+[0.952s] creating /home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages/task_1
+[0.952s] copying /home/shazzy/amr_ros2/build/task_1/build/lib/task_1/task_1.py -> /home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages/task_1
+[0.952s] copying /home/shazzy/amr_ros2/build/task_1/build/lib/task_1/__init__.py -> /home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages/task_1
+[0.953s] byte-compiling /home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages/task_1/task_1.py to task_1.cpython-310.pyc
+[0.955s] byte-compiling /home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages/task_1/__init__.py to __init__.cpython-310.pyc
+[0.956s] running install_data
+[0.956s] creating /home/shazzy/amr_ros2/install/task_1/share/ament_index
+[0.956s] creating /home/shazzy/amr_ros2/install/task_1/share/ament_index/resource_index
+[0.956s] creating /home/shazzy/amr_ros2/install/task_1/share/ament_index/resource_index/packages
+[0.956s] copying resource/task_1 -> /home/shazzy/amr_ros2/install/task_1/share/ament_index/resource_index/packages
+[0.956s] copying package.xml -> /home/shazzy/amr_ros2/install/task_1/share/task_1
+[0.956s] running install_egg_info
+[0.958s] Copying ../build/task_1/task_1.egg-info to /home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+[0.958s] running install_scripts
+[0.976s] Installing task_1 script to /home/shazzy/amr_ros2/install/task_1/lib/task_1
+[0.976s] writing list of installed files to '/home/shazzy/amr_ros2/build/task_1/install.log'
+[1.010s] Invoked command in '/home/shazzy/amr_ros2/task_1' returned '0': PYTHONPATH=/home/shazzy/amr_ros2/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shazzy/amr_ros2/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/task_1 build --build-base /home/shazzy/amr_ros2/build/task_1/build install --record /home/shazzy/amr_ros2/build/task_1/install.log --single-version-externally-managed install_data

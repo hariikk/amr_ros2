@@ -1,0 +1,44 @@
+running egg_info
+creating ../build/particle_filter_localization/particle_filter_localization.egg-info
+writing ../build/particle_filter_localization/particle_filter_localization.egg-info/PKG-INFO
+writing dependency_links to ../build/particle_filter_localization/particle_filter_localization.egg-info/dependency_links.txt
+writing entry points to ../build/particle_filter_localization/particle_filter_localization.egg-info/entry_points.txt
+writing requirements to ../build/particle_filter_localization/particle_filter_localization.egg-info/requires.txt
+writing top-level names to ../build/particle_filter_localization/particle_filter_localization.egg-info/top_level.txt
+writing manifest file '../build/particle_filter_localization/particle_filter_localization.egg-info/SOURCES.txt'
+reading manifest file '../build/particle_filter_localization/particle_filter_localization.egg-info/SOURCES.txt'
+writing manifest file '../build/particle_filter_localization/particle_filter_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shazzy/amr_ros2/build/particle_filter_localization/build
+creating /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib
+creating /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization
+copying particle_filter_localization/particle_filter.py -> /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization
+copying particle_filter_localization/__init__.py -> /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization
+running install
+running install_lib
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization
+copying /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization/particle_filter.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization
+copying /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization/__init__.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization
+byte-compiling /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization/particle_filter.py to particle_filter.cpython-310.pyc
+byte-compiling /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index/resource_index
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index/resource_index/packages
+copying resource/particle_filter_localization -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+copying launch/debug_map_launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+copying launch/simple_launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+copying launch/gazebo_4_wheel.launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+copying launch/particle_filter_launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/config
+copying config/particle_filter_params.yaml -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/config
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/maps
+creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/worlds
+running install_egg_info
+Copying ../build/particle_filter_localization/particle_filter_localization.egg-info to /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing particle_filter script to /home/shazzy/amr_ros2/install/particle_filter_localization/lib/particle_filter_localization
+writing list of installed files to '/home/shazzy/amr_ros2/build/particle_filter_localization/install.log'

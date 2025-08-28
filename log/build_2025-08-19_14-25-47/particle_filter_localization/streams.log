@@ -1,0 +1,46 @@
+[0.748s] Invoking command in '/home/shazzy/amr_ros2/particle_filter_localization': PYTHONPATH=/home/shazzy/amr_ros2/build/particle_filter_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/particle_filter_localization build --build-base /home/shazzy/amr_ros2/build/particle_filter_localization/build install --record /home/shazzy/amr_ros2/build/particle_filter_localization/install.log --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.950s] creating ../build/particle_filter_localization/particle_filter_localization.egg-info
+[0.950s] writing ../build/particle_filter_localization/particle_filter_localization.egg-info/PKG-INFO
+[0.951s] writing dependency_links to ../build/particle_filter_localization/particle_filter_localization.egg-info/dependency_links.txt
+[0.951s] writing entry points to ../build/particle_filter_localization/particle_filter_localization.egg-info/entry_points.txt
+[0.951s] writing requirements to ../build/particle_filter_localization/particle_filter_localization.egg-info/requires.txt
+[0.951s] writing top-level names to ../build/particle_filter_localization/particle_filter_localization.egg-info/top_level.txt
+[0.951s] writing manifest file '../build/particle_filter_localization/particle_filter_localization.egg-info/SOURCES.txt'
+[0.953s] reading manifest file '../build/particle_filter_localization/particle_filter_localization.egg-info/SOURCES.txt'
+[0.954s] writing manifest file '../build/particle_filter_localization/particle_filter_localization.egg-info/SOURCES.txt'
+[0.954s] running build
+[0.954s] running build_py
+[0.954s] creating /home/shazzy/amr_ros2/build/particle_filter_localization/build
+[0.955s] creating /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib
+[0.955s] creating /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization
+[0.955s] copying particle_filter_localization/particle_filter.py -> /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization
+[0.955s] copying particle_filter_localization/__init__.py -> /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization
+[0.955s] running install
+[0.955s] running install_lib
+[0.956s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization
+[0.957s] copying /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization/particle_filter.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization
+[0.957s] copying /home/shazzy/amr_ros2/build/particle_filter_localization/build/lib/particle_filter_localization/__init__.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization
+[0.957s] byte-compiling /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization/particle_filter.py to particle_filter.cpython-310.pyc
+[0.958s] byte-compiling /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization/__init__.py to __init__.cpython-310.pyc
+[0.959s] running install_data
+[0.959s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index
+[0.959s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index/resource_index
+[0.959s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index/resource_index/packages
+[0.959s] copying resource/particle_filter_localization -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/ament_index/resource_index/packages
+[0.959s] copying package.xml -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization
+[0.959s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+[0.959s] copying launch/debug_map_launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+[0.959s] copying launch/simple_launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+[0.959s] copying launch/gazebo_4_wheel.launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+[0.960s] copying launch/particle_filter_launch.py -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/launch
+[0.960s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/config
+[0.960s] copying config/particle_filter_params.yaml -> /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/config
+[0.960s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/maps
+[0.960s] creating /home/shazzy/amr_ros2/install/particle_filter_localization/share/particle_filter_localization/worlds
+[0.960s] running install_egg_info
+[0.961s] Copying ../build/particle_filter_localization/particle_filter_localization.egg-info to /home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages/particle_filter_localization-0.0.0-py3.10.egg-info
+[0.962s] running install_scripts
+[0.979s] Installing particle_filter script to /home/shazzy/amr_ros2/install/particle_filter_localization/lib/particle_filter_localization
+[0.979s] writing list of installed files to '/home/shazzy/amr_ros2/build/particle_filter_localization/install.log'
+[1.007s] Invoked command in '/home/shazzy/amr_ros2/particle_filter_localization' returned '0': PYTHONPATH=/home/shazzy/amr_ros2/build/particle_filter_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shazzy/amr_ros2/install/particle_filter_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/particle_filter_localization build --build-base /home/shazzy/amr_ros2/build/particle_filter_localization/build install --record /home/shazzy/amr_ros2/build/particle_filter_localization/install.log --single-version-externally-managed install_data
